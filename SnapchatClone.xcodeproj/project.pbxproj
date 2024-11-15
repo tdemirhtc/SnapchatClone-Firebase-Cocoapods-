@@ -1,0 +1,806 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23C6F979A3A4015C0C59D1B3 /* Pods_SnapchatCloneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11BBAD6BCBC0D2BEEA9860E5 /* Pods_SnapchatCloneTests.framework */; };
+		6566E5682CD2469F0017D008 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6566E5672CD2469F0017D008 /* GoogleService-Info.plist */; };
+		6566E56A2CD267610017D008 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6566E5692CD267610017D008 /* FeedVC.swift */; };
+		6566E56C2CD267720017D008 /* UploadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6566E56B2CD267720017D008 /* UploadVC.swift */; };
+		6566E56E2CD267BB0017D008 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6566E56D2CD267BB0017D008 /* SettingsVC.swift */; };
+		6566E5702CD269840017D008 /* SnapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6566E56F2CD269840017D008 /* SnapVC.swift */; };
+		65A4E3702CD2444500EDC66D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A4E36F2CD2444500EDC66D /* AppDelegate.swift */; };
+		65A4E3722CD2444500EDC66D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A4E3712CD2444500EDC66D /* SceneDelegate.swift */; };
+		65A4E3742CD2444500EDC66D /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A4E3732CD2444500EDC66D /* SignInVC.swift */; };
+		65A4E3772CD2444500EDC66D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 65A4E3762CD2444500EDC66D /* Base */; };
+		65A4E3792CD2444600EDC66D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65A4E3782CD2444600EDC66D /* Assets.xcassets */; };
+		65A4E37C2CD2444600EDC66D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 65A4E37B2CD2444600EDC66D /* Base */; };
+		65A4E3872CD2444600EDC66D /* SnapchatCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A4E3862CD2444600EDC66D /* SnapchatCloneTests.swift */; };
+		65A4E3912CD2444600EDC66D /* SnapchatCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A4E3902CD2444600EDC66D /* SnapchatCloneUITests.swift */; };
+		65A4E3932CD2444600EDC66D /* SnapchatCloneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A4E3922CD2444600EDC66D /* SnapchatCloneUITestsLaunchTests.swift */; };
+		65F5E3CF2CDA305400D53B34 /* userSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F5E3CE2CDA305400D53B34 /* userSingleton.swift */; };
+		65F5E3D12CDA5EC800D53B34 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F5E3D02CDA5EC800D53B34 /* FeedCell.swift */; };
+		65F5E3D32CDA875F00D53B34 /* Snap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F5E3D22CDA875F00D53B34 /* Snap.swift */; };
+		6C6D2F1C67A92BA9158250E8 /* Pods_SnapchatClone_SnapchatCloneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C55FC20A35222DB3A60FEDDC /* Pods_SnapchatClone_SnapchatCloneUITests.framework */; };
+		7F60390037F64A49575D9CFE /* Pods_SnapchatClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC8439EB13515B752CCC122 /* Pods_SnapchatClone.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65A4E3832CD2444600EDC66D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65A4E3642CD2444500EDC66D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65A4E36B2CD2444500EDC66D;
+			remoteInfo = SnapchatClone;
+		};
+		65A4E38D2CD2444600EDC66D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65A4E3642CD2444500EDC66D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65A4E36B2CD2444500EDC66D;
+			remoteInfo = SnapchatClone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		111C93D3709F483C47BFEAC9 /* Pods-SnapchatClone-SnapchatCloneUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapchatClone-SnapchatCloneUITests.debug.xcconfig"; path = "Target Support Files/Pods-SnapchatClone-SnapchatCloneUITests/Pods-SnapchatClone-SnapchatCloneUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		11BBAD6BCBC0D2BEEA9860E5 /* Pods_SnapchatCloneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapchatCloneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29FC6B73FB649FC107ED883A /* Pods-SnapchatClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapchatClone.release.xcconfig"; path = "Target Support Files/Pods-SnapchatClone/Pods-SnapchatClone.release.xcconfig"; sourceTree = "<group>"; };
+		6566E5672CD2469F0017D008 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6566E5692CD267610017D008 /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		6566E56B2CD267720017D008 /* UploadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadVC.swift; sourceTree = "<group>"; };
+		6566E56D2CD267BB0017D008 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		6566E56F2CD269840017D008 /* SnapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapVC.swift; sourceTree = "<group>"; };
+		65A4E36C2CD2444500EDC66D /* SnapchatClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapchatClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65A4E36F2CD2444500EDC66D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65A4E3712CD2444500EDC66D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		65A4E3732CD2444500EDC66D /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		65A4E3762CD2444500EDC66D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65A4E3782CD2444600EDC66D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65A4E37B2CD2444600EDC66D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65A4E37D2CD2444600EDC66D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65A4E3822CD2444600EDC66D /* SnapchatCloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapchatCloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65A4E3862CD2444600EDC66D /* SnapchatCloneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapchatCloneTests.swift; sourceTree = "<group>"; };
+		65A4E38C2CD2444600EDC66D /* SnapchatCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapchatCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65A4E3902CD2444600EDC66D /* SnapchatCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapchatCloneUITests.swift; sourceTree = "<group>"; };
+		65A4E3922CD2444600EDC66D /* SnapchatCloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapchatCloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		65F5E3CE2CDA305400D53B34 /* userSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userSingleton.swift; sourceTree = "<group>"; };
+		65F5E3D02CDA5EC800D53B34 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		65F5E3D22CDA875F00D53B34 /* Snap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snap.swift; sourceTree = "<group>"; };
+		895DD4E750EB5A461635E1BA /* Pods-SnapchatClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapchatClone.debug.xcconfig"; path = "Target Support Files/Pods-SnapchatClone/Pods-SnapchatClone.debug.xcconfig"; sourceTree = "<group>"; };
+		8B5F1F8C6CFAB206B426F0E0 /* Pods-SnapchatCloneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapchatCloneTests.release.xcconfig"; path = "Target Support Files/Pods-SnapchatCloneTests/Pods-SnapchatCloneTests.release.xcconfig"; sourceTree = "<group>"; };
+		8DC8439EB13515B752CCC122 /* Pods_SnapchatClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapchatClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C55FC20A35222DB3A60FEDDC /* Pods_SnapchatClone_SnapchatCloneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapchatClone_SnapchatCloneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4D8FCADCEB51CBE3A1E933D /* Pods-SnapchatClone-SnapchatCloneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapchatClone-SnapchatCloneUITests.release.xcconfig"; path = "Target Support Files/Pods-SnapchatClone-SnapchatCloneUITests/Pods-SnapchatClone-SnapchatCloneUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F78E98DDC70C50E88D5B45D7 /* Pods-SnapchatCloneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapchatCloneTests.debug.xcconfig"; path = "Target Support Files/Pods-SnapchatCloneTests/Pods-SnapchatCloneTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65A4E3692CD2444500EDC66D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F60390037F64A49575D9CFE /* Pods_SnapchatClone.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65A4E37F2CD2444600EDC66D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23C6F979A3A4015C0C59D1B3 /* Pods_SnapchatCloneTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65A4E3892CD2444600EDC66D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C6D2F1C67A92BA9158250E8 /* Pods_SnapchatClone_SnapchatCloneUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19D287434772FD4405CD8BF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DC8439EB13515B752CCC122 /* Pods_SnapchatClone.framework */,
+				C55FC20A35222DB3A60FEDDC /* Pods_SnapchatClone_SnapchatCloneUITests.framework */,
+				11BBAD6BCBC0D2BEEA9860E5 /* Pods_SnapchatCloneTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		471D8000F14539E3F629ABE1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				895DD4E750EB5A461635E1BA /* Pods-SnapchatClone.debug.xcconfig */,
+				29FC6B73FB649FC107ED883A /* Pods-SnapchatClone.release.xcconfig */,
+				111C93D3709F483C47BFEAC9 /* Pods-SnapchatClone-SnapchatCloneUITests.debug.xcconfig */,
+				F4D8FCADCEB51CBE3A1E933D /* Pods-SnapchatClone-SnapchatCloneUITests.release.xcconfig */,
+				F78E98DDC70C50E88D5B45D7 /* Pods-SnapchatCloneTests.debug.xcconfig */,
+				8B5F1F8C6CFAB206B426F0E0 /* Pods-SnapchatCloneTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		65A4E3632CD2444500EDC66D = {
+			isa = PBXGroup;
+			children = (
+				65F5E3D02CDA5EC800D53B34 /* FeedCell.swift */,
+				65F5E3CD2CDA301A00D53B34 /* Models */,
+				65A4E36E2CD2444500EDC66D /* SnapchatClone */,
+				65A4E3852CD2444600EDC66D /* SnapchatCloneTests */,
+				65A4E38F2CD2444600EDC66D /* SnapchatCloneUITests */,
+				65A4E36D2CD2444500EDC66D /* Products */,
+				471D8000F14539E3F629ABE1 /* Pods */,
+				19D287434772FD4405CD8BF8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		65A4E36D2CD2444500EDC66D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65A4E36C2CD2444500EDC66D /* SnapchatClone.app */,
+				65A4E3822CD2444600EDC66D /* SnapchatCloneTests.xctest */,
+				65A4E38C2CD2444600EDC66D /* SnapchatCloneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65A4E36E2CD2444500EDC66D /* SnapchatClone */ = {
+			isa = PBXGroup;
+			children = (
+				6566E56D2CD267BB0017D008 /* SettingsVC.swift */,
+				65A4E36F2CD2444500EDC66D /* AppDelegate.swift */,
+				65A4E3712CD2444500EDC66D /* SceneDelegate.swift */,
+				65A4E3732CD2444500EDC66D /* SignInVC.swift */,
+				65A4E3752CD2444500EDC66D /* Main.storyboard */,
+				6566E56F2CD269840017D008 /* SnapVC.swift */,
+				6566E5692CD267610017D008 /* FeedVC.swift */,
+				6566E56B2CD267720017D008 /* UploadVC.swift */,
+				65A4E3782CD2444600EDC66D /* Assets.xcassets */,
+				65A4E37A2CD2444600EDC66D /* LaunchScreen.storyboard */,
+				65A4E37D2CD2444600EDC66D /* Info.plist */,
+				6566E5672CD2469F0017D008 /* GoogleService-Info.plist */,
+			);
+			path = SnapchatClone;
+			sourceTree = "<group>";
+		};
+		65A4E3852CD2444600EDC66D /* SnapchatCloneTests */ = {
+			isa = PBXGroup;
+			children = (
+				65A4E3862CD2444600EDC66D /* SnapchatCloneTests.swift */,
+			);
+			path = SnapchatCloneTests;
+			sourceTree = "<group>";
+		};
+		65A4E38F2CD2444600EDC66D /* SnapchatCloneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				65A4E3902CD2444600EDC66D /* SnapchatCloneUITests.swift */,
+				65A4E3922CD2444600EDC66D /* SnapchatCloneUITestsLaunchTests.swift */,
+			);
+			path = SnapchatCloneUITests;
+			sourceTree = "<group>";
+		};
+		65F5E3CD2CDA301A00D53B34 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				65F5E3CE2CDA305400D53B34 /* userSingleton.swift */,
+				65F5E3D22CDA875F00D53B34 /* Snap.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65A4E36B2CD2444500EDC66D /* SnapchatClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65A4E3962CD2444600EDC66D /* Build configuration list for PBXNativeTarget "SnapchatClone" */;
+			buildPhases = (
+				00BF0C68B5546BB26328A371 /* [CP] Check Pods Manifest.lock */,
+				65A4E3682CD2444500EDC66D /* Sources */,
+				65A4E3692CD2444500EDC66D /* Frameworks */,
+				65A4E36A2CD2444500EDC66D /* Resources */,
+				0925D7EB18BC623F6FE397AD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapchatClone;
+			productName = SnapchatClone;
+			productReference = 65A4E36C2CD2444500EDC66D /* SnapchatClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65A4E3812CD2444600EDC66D /* SnapchatCloneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65A4E3992CD2444600EDC66D /* Build configuration list for PBXNativeTarget "SnapchatCloneTests" */;
+			buildPhases = (
+				F36B63A8E2B0DEEA14E90298 /* [CP] Check Pods Manifest.lock */,
+				65A4E37E2CD2444600EDC66D /* Sources */,
+				65A4E37F2CD2444600EDC66D /* Frameworks */,
+				65A4E3802CD2444600EDC66D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65A4E3842CD2444600EDC66D /* PBXTargetDependency */,
+			);
+			name = SnapchatCloneTests;
+			productName = SnapchatCloneTests;
+			productReference = 65A4E3822CD2444600EDC66D /* SnapchatCloneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		65A4E38B2CD2444600EDC66D /* SnapchatCloneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65A4E39C2CD2444600EDC66D /* Build configuration list for PBXNativeTarget "SnapchatCloneUITests" */;
+			buildPhases = (
+				5848C55111CFA2DB7FD30900 /* [CP] Check Pods Manifest.lock */,
+				65A4E3882CD2444600EDC66D /* Sources */,
+				65A4E3892CD2444600EDC66D /* Frameworks */,
+				65A4E38A2CD2444600EDC66D /* Resources */,
+				6B8BDBF7C1EBFEDBDFBD8D0E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65A4E38E2CD2444600EDC66D /* PBXTargetDependency */,
+			);
+			name = SnapchatCloneUITests;
+			productName = SnapchatCloneUITests;
+			productReference = 65A4E38C2CD2444600EDC66D /* SnapchatCloneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65A4E3642CD2444500EDC66D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					65A4E36B2CD2444500EDC66D = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					65A4E3812CD2444600EDC66D = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 65A4E36B2CD2444500EDC66D;
+					};
+					65A4E38B2CD2444600EDC66D = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 65A4E36B2CD2444500EDC66D;
+					};
+				};
+			};
+			buildConfigurationList = 65A4E3672CD2444500EDC66D /* Build configuration list for PBXProject "SnapchatClone" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65A4E3632CD2444500EDC66D;
+			productRefGroup = 65A4E36D2CD2444500EDC66D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65A4E36B2CD2444500EDC66D /* SnapchatClone */,
+				65A4E3812CD2444600EDC66D /* SnapchatCloneTests */,
+				65A4E38B2CD2444600EDC66D /* SnapchatCloneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65A4E36A2CD2444500EDC66D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65A4E3792CD2444600EDC66D /* Assets.xcassets in Resources */,
+				6566E5682CD2469F0017D008 /* GoogleService-Info.plist in Resources */,
+				65A4E37C2CD2444600EDC66D /* Base in Resources */,
+				65A4E3772CD2444500EDC66D /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65A4E3802CD2444600EDC66D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65A4E38A2CD2444600EDC66D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00BF0C68B5546BB26328A371 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SnapchatClone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0925D7EB18BC623F6FE397AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SnapchatClone/Pods-SnapchatClone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SnapchatClone/Pods-SnapchatClone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SnapchatClone/Pods-SnapchatClone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5848C55111CFA2DB7FD30900 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SnapchatClone-SnapchatCloneUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B8BDBF7C1EBFEDBDFBD8D0E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SnapchatClone-SnapchatCloneUITests/Pods-SnapchatClone-SnapchatCloneUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SnapchatClone-SnapchatCloneUITests/Pods-SnapchatClone-SnapchatCloneUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SnapchatClone-SnapchatCloneUITests/Pods-SnapchatClone-SnapchatCloneUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F36B63A8E2B0DEEA14E90298 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SnapchatCloneTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65A4E3682CD2444500EDC66D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65F5E3CF2CDA305400D53B34 /* userSingleton.swift in Sources */,
+				65F5E3D32CDA875F00D53B34 /* Snap.swift in Sources */,
+				6566E56A2CD267610017D008 /* FeedVC.swift in Sources */,
+				65A4E3742CD2444500EDC66D /* SignInVC.swift in Sources */,
+				65A4E3702CD2444500EDC66D /* AppDelegate.swift in Sources */,
+				6566E56C2CD267720017D008 /* UploadVC.swift in Sources */,
+				6566E5702CD269840017D008 /* SnapVC.swift in Sources */,
+				65A4E3722CD2444500EDC66D /* SceneDelegate.swift in Sources */,
+				6566E56E2CD267BB0017D008 /* SettingsVC.swift in Sources */,
+				65F5E3D12CDA5EC800D53B34 /* FeedCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65A4E37E2CD2444600EDC66D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65A4E3872CD2444600EDC66D /* SnapchatCloneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65A4E3882CD2444600EDC66D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65A4E3932CD2444600EDC66D /* SnapchatCloneUITestsLaunchTests.swift in Sources */,
+				65A4E3912CD2444600EDC66D /* SnapchatCloneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65A4E3842CD2444600EDC66D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65A4E36B2CD2444500EDC66D /* SnapchatClone */;
+			targetProxy = 65A4E3832CD2444600EDC66D /* PBXContainerItemProxy */;
+		};
+		65A4E38E2CD2444600EDC66D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65A4E36B2CD2444500EDC66D /* SnapchatClone */;
+			targetProxy = 65A4E38D2CD2444600EDC66D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		65A4E3752CD2444500EDC66D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65A4E3762CD2444500EDC66D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65A4E37A2CD2444600EDC66D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65A4E37B2CD2444600EDC66D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65A4E3942CD2444600EDC66D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65A4E3952CD2444600EDC66D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65A4E3972CD2444600EDC66D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 895DD4E750EB5A461635E1BA /* Pods-SnapchatClone.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8P4P22FA3P;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SnapchatClone/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haticetasdemir.SnapchatClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65A4E3982CD2444600EDC66D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29FC6B73FB649FC107ED883A /* Pods-SnapchatClone.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8P4P22FA3P;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SnapchatClone/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haticetasdemir.SnapchatClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		65A4E39A2CD2444600EDC66D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F78E98DDC70C50E88D5B45D7 /* Pods-SnapchatCloneTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haticetasdemir.SnapchatCloneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapchatClone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SnapchatClone";
+			};
+			name = Debug;
+		};
+		65A4E39B2CD2444600EDC66D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B5F1F8C6CFAB206B426F0E0 /* Pods-SnapchatCloneTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haticetasdemir.SnapchatCloneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapchatClone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SnapchatClone";
+			};
+			name = Release;
+		};
+		65A4E39D2CD2444600EDC66D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 111C93D3709F483C47BFEAC9 /* Pods-SnapchatClone-SnapchatCloneUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haticetasdemir.SnapchatCloneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SnapchatClone;
+			};
+			name = Debug;
+		};
+		65A4E39E2CD2444600EDC66D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4D8FCADCEB51CBE3A1E933D /* Pods-SnapchatClone-SnapchatCloneUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haticetasdemir.SnapchatCloneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SnapchatClone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65A4E3672CD2444500EDC66D /* Build configuration list for PBXProject "SnapchatClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65A4E3942CD2444600EDC66D /* Debug */,
+				65A4E3952CD2444600EDC66D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65A4E3962CD2444600EDC66D /* Build configuration list for PBXNativeTarget "SnapchatClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65A4E3972CD2444600EDC66D /* Debug */,
+				65A4E3982CD2444600EDC66D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65A4E3992CD2444600EDC66D /* Build configuration list for PBXNativeTarget "SnapchatCloneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65A4E39A2CD2444600EDC66D /* Debug */,
+				65A4E39B2CD2444600EDC66D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65A4E39C2CD2444600EDC66D /* Build configuration list for PBXNativeTarget "SnapchatCloneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65A4E39D2CD2444600EDC66D /* Debug */,
+				65A4E39E2CD2444600EDC66D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65A4E3642CD2444500EDC66D /* Project object */;
+}
