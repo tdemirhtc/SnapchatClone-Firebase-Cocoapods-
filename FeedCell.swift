@@ -5,6 +5,7 @@
 //  Created by Hatice Taşdemir on 5.11.2024.
 //
 
+
 import UIKit
 
 class FeedCell: UITableViewCell {

@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 class userSingleton{
     
     static let sharedUserInfo = userSingleton()
